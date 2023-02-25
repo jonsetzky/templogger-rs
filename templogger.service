@@ -1,0 +1,9 @@
+[Unit]
+Description=A raspberry pi temperature logger
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/temploggerd
+
+[Install]
+WantedBy=multi-user.target
